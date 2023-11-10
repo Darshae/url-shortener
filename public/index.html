@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <title>URL Shortener | Easy Project</title>
+</head>
+<body class="flex justify-center items-center h-screen bg-backgroundCover bg-cover bg-no-repeat bg-center">
+    <div id="container" class="flex flex-col xl:w-1/3 lg:w-3/5 md:w-4/5 sm:w-4/5 p-8 items-center border-2 border-gray-700 rounded-lg bg-white bg-opacity-50">
+        <i class='bx bx-link text-8xl m-2'></i>
+        <label for="" class="font-Sofia font-semibold text-4xl">URL Shortener!</label>
+        <label for="longURL" class="text-xl">Long URL:</label>
+        <input type="text" name="longURL" id="longURL" class="rounded p-2 border-2 mb-3  w-full border-black" placeholder="https://example.com">
+        <div class="inline-flex w-full">
+            <button id="clearBtn" class="w-1/2 mr-1 border-2 border-gray-600 rounded-md text-black hover:bg-gray-700 hover:text-white ease-in duration-200">Clear</button>
+            <button id="shortenIt" class="w-1/2 border-2 border-gray-600 rounded-md text-black hover:bg-gray-700 hover:text-white ease-in duration-200">Shorten It!</button>
+        </div>
+        <label for="shortURL" class="text-xl">Shortened URL:</label>
+        <textarea name="shortURL" id="shortURL" class="rounded pl-1 pt-1.5 border-2 border-black overflow-hidden w-full h-10" placeholder="tinyurl.link"></textarea>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
