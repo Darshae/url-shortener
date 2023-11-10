@@ -7,7 +7,7 @@ module.exports = {
         Sofia: ['Sofia Sans Condensed'],
       },
       backgroundImage: {
-        'backgroundCover': "url('public/img/backgroundcover.jpg')",
+        'backgroundCover': "url('/img/backgroundcover.jpg')",
       }
     },
   },
